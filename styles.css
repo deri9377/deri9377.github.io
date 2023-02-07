@@ -1,0 +1,56 @@
+
+
+.item{
+    background-color:black;
+    display:block;
+}
+
+
+.carousel-inner{
+    min-height : 300px;
+    max-height : 300px;
+    width : 100%;
+    padding: 1em;
+}
+
+.carousel-caption{
+    color:#000;
+}
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+    position: center;
+}
+
+/*#footer {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 2.5rem;            !* Footer height *!*/
+/*}*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon  {
+    position: absolute;
+    bottom: 20px;
+    width: 2vw;
+    height: 2vw;
+}
+
+
+.carousel-control-prev {
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    bottom: 0;
+    margin-left: -50px;
+}
+
+.carousel-control-next {
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    bottom: 0;
+    margin-right: -25px;
+}
