@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
   <meta name="viewport"    content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
@@ -32,13 +33,36 @@
         <a class="nav-link" href="interests.html">Interests</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="social.html">Social Media</a>
+        <a class="nav-link" onclick=document.getElementById("footer").scrollIntoView()>Social Media</a>
       </li>
     </ul>
   </div>
 </nav>
+<br><br>
+<div class="container" style="text-align: center">
+  <h5>In my free time I enjoy doing activities outside like snowboarding, hiking, and traveling</h5>
+  <table>
+    <tr>
+      <th>
+        <img class="img" src="resources/sand.JPG" alt="...">
+      </th>
+      <th>
+        <img class="img" src="resources/hiking.png" alt="...">
+      </th>
+      <th>
+        <img class="img" src="resources/sf_coast.JPG" alt="...">
+      </th>
+      <th>
+        <img class="img" src="resources/greenshirt.png" alt="...">
+      </th>
+      <th>
+        <img class="img" src="resources/snowboard.JPG" alt="...">
+      </th>
+    </tr>
+  </table>
+</div>
 
-<footer class="text-center text-lg-start text-white bg-dark" style="bottom: 0;position: absolute; width: 100%">
+<footer id="footer" class="text-center text-lg-start text-white bg-dark" style="bottom: 0;position: fixed; width: 100%">
   <!-- Section: Links  -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
   <div class="container text-center text-md-start mt-5">
